@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investissement VIP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+        .vip-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px auto;
+            width: 200px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .vip-box h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 0 -10px 10px -10px;
+            font-size: 1.2em;
+        }
+        .vip-box p {
+            font-size: 0.9em;
+            margin: 5px 0;
+        }
+        .invest-button {
+            background-color: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .invest-button:hover {
+            background-color: #218838;
+        }
+        .message {
+            color: red;
+            font-weight: bold;
+            margin-top: 5px;
+            display: none;
+        }
+    </style>
+    <script>
+        function showInsufficientFundsMessage(button) {
+            const message = button.nextElementSibling;
+            message.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+
+    <div class="vip-box">
+        <h2>VIP 1</h2>
+        <p>Prix : <strong>7 500 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>850 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>22 100 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 2</h2>
+        <p>Prix : <strong>15 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>1 700 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>44 200 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 3</h2>
+        <p>Prix : <strong>30 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>3 400 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>88 400 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 4</h2>
+        <p>Prix : <strong>60 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>6 800 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>176 800 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 5</h2>
+        <p>Prix : <strong>120 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>13 800 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>359 200 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 6</h2>
+        <p>Prix : <strong>240 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>27 600 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>717 600 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 7</h2>
+        <p>Prix : <strong>480 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>55 200 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>1 435 200 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 8</h2>
+        <p>Prix : <strong>960 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>110 000 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>2 860 000 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 9</h2>
+        <p>Prix : <strong>1 920 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>220 000 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>5 920 000 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+    <div class="vip-box">
+        <h2>VIP 10</h2>
+        <p>Prix : <strong>3 840 000 FCFA</strong></p>
+        <p>Revenus quotidiens : <strong>440 000 FCFA</strong></p>
+        <p>Cycle : <strong>26 jours</strong></p>
+        <p>Revenus totaux : <strong>11 440 000 FCFA</strong></p>
+        <button class="invest-button" onclick="showInsufficientFundsMessage(this)">Investir</button>
+        <div class="message">Solde insuffisant</div>
+    </div>
+
+</body>
+</html>
